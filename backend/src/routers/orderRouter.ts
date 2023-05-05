@@ -5,7 +5,7 @@ import {
   getOrderById,
   getOrders,
   updateOrderToPaid,
-} from '../controllers/order.controllers';
+} from '../controllers/orderControllers';
 
 export const orderRouter = express.Router();
 
